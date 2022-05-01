@@ -21,11 +21,12 @@
 
 > 仅仅只提供 JDK8下的的`tools`, 因为高JDK版本的 `tools` 已经继承到jdk-sdk中, 可以直接在项目中通过导入模块的方式使用
 
+##### 为了控制整个包的大小, 本次仅仅只提供了 `javac`的相关功能
 ```xml
 <dependency>
     <groupId>io.github.cao2068959</groupId>
-    <artifactId>sun-tools</artifactId>
-    <version>8</version>
+    <artifactId>sun-tools-javac</artifactId>
+    <version>8.0.0</version>
 </dependency>
 ```
 
